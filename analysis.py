@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("veri-seti.csv")
+df = pd.read_csv("hospital.csv")
 
 toplam_gelir = df["Gelir"].sum()
 toplam_gider = df["Gider"].sum()
